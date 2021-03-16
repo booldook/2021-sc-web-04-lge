@@ -1,10 +1,27 @@
 /* 
 보라색 : #ae1a4a
+
+1. background-color: #333;
+2. background-image: url('../img/common.png');
+3. background-repeat: no-repeat;
+4. background-position: top;
+4. background-position: left;
+4. background-position: center;
+4. background-position: left center;
+4. background-position: 25% 75%; (좌, 상)
+4. background-position: left 25% top 75%;
+5. background-size: [contain], 100% [auto], auto 100%, cover, 100px 100px
+---- 한줄로 ---
+background: 1 2 3 4
+background: #333 url('../img/common.png') no-repeat 0 0;
+background: url('../img/common.png') no-repeat 0 0;
+background: url('../img/common.png');
+background: #333 url('../img/common.png') left top/cover;
 */
 
 @import './lge-font.css';
 
-html, body {font-family: 'LGSmHaR'; font-size: 14px;}
+html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 30px;}
 
 /********************* header-wrapper **********************/
@@ -15,4 +32,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px;}
 			.top-wrapper ul.top-wrap li:nth-child(2) {margin: 0 12px; opacity: .5;}
 
 	.header-wrapper .navi-wrapper {background-color: #333;}
+		.navi-wrapper .logo {width: 164px; height: 43px; background: url('../img/common.png');}
+			.navi-wrapper .logo a {display: inline-block; width: 100%; height: 100%;}
+
 	.header-wrapper .navi-wrapper2 {background-color: #ae1a4a;}
