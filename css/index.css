@@ -1,1 +1,14 @@
-.wrapper {max-width: 1600px; margin: auto;}
+/* 
+보라색 : #ae1a4a
+*/
+
+@import './lge-font.css';
+
+html, body {font-family: 'LGSmHaR';}
+.wrapper {max-width: 1600px; margin: auto; padding: 0 30px;}
+
+/********************* header-wrapper **********************/
+.header-wrapper {}
+	.header-wrapper .top-wrapper {background-color: #333;}
+	.header-wrapper .navi-wrapper {background-color: #333;}
+	.header-wrapper .navi-wrapper2 {background-color: #ae1a4a;}
