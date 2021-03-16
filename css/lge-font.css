@@ -1,0 +1,38 @@
+@font-face {
+	font-family:'LGSmHaL' ;font-style:normal;font-weight:200;
+src:	url('../lgefonts/LGSmHaL.woff2') format('woff2'),
+		url('../lgefonts/LGSmHaL.woff') format('woff'),
+		url('../lgefonts/LGSmHaL.ttf') format('truetype');
+}
+@font-face {
+	font-family:'LGSmHaR';font-style:normal;font-weight:400;
+	src:	url('../lgefonts/LGSmHaR.woff2') format('woff2'),
+		url('../lgefonts/LGSmHaR.woff') format('woff'),
+		url('../lgefonts/LGSmHaR.ttf') format('truetype');
+}
+@font-face {
+	font-family:'LGSmHaB';font-style:normal;font-weight:600;
+	src:	url('../lgefonts/LGSmHaB.woff2') format('woff2'),
+		url('../lgefonts/LGSmHaB.woff') format('woff'),
+		url('../lgefonts/LGSmHaB.ttf') format('truetype');
+}
+@font-face {
+	font-family:'LGSmHaSB';font-style:normal;
+	src:	url('../lgefonts/LGSmHaSB.woff2') format('woff2'),
+		url('../lgefonts/LGSmHaSB.woff') format('woff'),
+		url('../lgefonts/LGSmHaSB.ttf') format('truetype');
+}
+@font-face {
+	font-family:'LGEIcons';font-style:normal;font-weight:200;
+	src:url('../lgefonts/LGEIcons.eot');
+	src:url('../lgefonts/LGEIcons.eot?#iefix') format('embedded-opentype'),
+	url('../lgefonts/LGEIcons.woff') format('woff'),
+	url('../lgefonts/LGEIcons.ttf') format('truetype');
+}
+@font-face {
+	font-family:'NanumBarunGothic';font-style:normal;
+	src:url('../lgefonts/NanumBarunGothicWeb.eot');
+	src:url('../lgefonts/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'),
+	url('../lgefonts/NanumBarunGothicWeb.woff') format('woff'),
+	url('../lgefonts/NanumBarunGothicWeb.ttf') format('truetype');
+}
