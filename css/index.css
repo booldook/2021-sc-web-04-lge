@@ -32,7 +32,10 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 			.top-wrapper ul.top-wrap li:nth-child(2) {margin: 0 12px; opacity: .5;}
 
 	.header-wrapper .navi-wrapper {background-color: #333;}
-		.navi-wrapper .logo {width: 164px; height: 43px; background: url('../img/common.png');}
+		.navi-wrapper .logo {width: 164px; height: 43px; float: left; background: url('../img/common.png');}
 			.navi-wrapper .logo a {display: inline-block; width: 100%; height: 100%;}
+		.navi-wrapper .navi-wrap {float: right; color: #f8f8f8; font-size: 18px;}
+		.navi-wrapper .navi-wrap .navi {float: left; padding: 16px 14px 30px 14px;}
+		.navi-wrapper .navi-wrap .navi:last-child > span {opacity: .5;}
 
 	.header-wrapper .navi-wrapper2 {background-color: #ae1a4a;}
