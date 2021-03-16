@@ -4,11 +4,15 @@
 
 @import './lge-font.css';
 
-html, body {font-family: 'LGSmHaR';}
+html, body {font-family: 'LGSmHaR'; font-size: 14px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 30px;}
 
 /********************* header-wrapper **********************/
 .header-wrapper {}
-	.header-wrapper .top-wrapper {background-color: #333;}
+	.header-wrapper .top-wrapper {background-color: #333; padding: 20px 0 6px 0;}
+		.top-wrapper ul.top-wrap {float: right; padding: 6px 16px; background-color: #ae1a4a; border-radius: 13px;}
+			.top-wrapper ul.top-wrap li {float: left; color: #f8f8f8;}
+			.top-wrapper ul.top-wrap li:nth-child(2) {margin: 0 12px; opacity: .5;}
+
 	.header-wrapper .navi-wrapper {background-color: #333;}
 	.header-wrapper .navi-wrapper2 {background-color: #ae1a4a;}
