@@ -21,7 +21,7 @@ background: #333 url('../img/common.png') left top/cover;
 
 @import './lge-font.css';
 
-html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
+html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; height: 10000px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 30px;}
 
 /********************* header-wrapper **********************/
