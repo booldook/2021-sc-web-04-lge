@@ -10,13 +10,13 @@
 		.wrapper {max-width: 1200px; margin: auto;}
 
 		.gnb-wrapper {border: 1px solid darkkhaki; padding-bottom: 200px;}
-			.navi-wrapper {border: 1px solid green; padding-top: 30px; position: relative; margin-top: 100px;}
+			.navi-wrapper {border: 1px solid green; padding-top: 30px; margin-top: 100px;}
 				.navi-wrap {border: 1px solid orange;}
-				.navi-wrap > .navi {float: left; border: 1px solid orangered; padding: 16px 24px;}
-				.navi-wrap > .navi > .sub-wrap {position: absolute; width: 100%; height: 300px; left: 0; top: 81px;}
-				.navi-wrap > .navi:nth-child(1) > .sub-wrap {background-color:palevioletred;}
-				.navi-wrap > .navi:nth-child(2) > .sub-wrap {background-color:powderblue;}
-				.navi-wrap > .navi:nth-child(3) > .sub-wrap {background-color:palegreen;}
+				.navi-wrap > .navi {float: left; border: 1px solid orangered; padding: 16px 24px; position: relative;}
+				.navi-wrap > .navi > .sub-wrap {position: absolute; width: 150%; height: 300px; left: 0; top: 50px;}
+				.navi-wrap > .navi:nth-child(1) > .sub-wrap {background-color:palevioletred; z-index: 3;}
+				.navi-wrap > .navi:nth-child(2) > .sub-wrap {background-color:powderblue; z-index: 1;}
+				.navi-wrap > .navi:nth-child(3) > .sub-wrap {background-color:palegreen; z-index: 2;}
 	</style>
 </head>
 <body>
