@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>네비게이션</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		.wrapper {max-width: 1200px; margin: auto;}
+
+		.gnb-wrapper {border: 1px solid darkkhaki; padding-bottom: 200px;}
+			.navi-wrapper {border: 1px solid green; padding-top: 30px; position: relative; margin-top: 100px;}
+				.navi-wrap {border: 1px solid orange;}
+				.navi-wrap > .navi {float: left; border: 1px solid orangered; padding: 16px 24px;}
+				.navi-wrap > .navi > .sub-wrap {position: absolute; width: 100%; height: 300px; left: 0; top: 81px;}
+				.navi-wrap > .navi:nth-child(1) > .sub-wrap {background-color:palevioletred;}
+				.navi-wrap > .navi:nth-child(2) > .sub-wrap {background-color:powderblue;}
+				.navi-wrap > .navi:nth-child(3) > .sub-wrap {background-color:palegreen;}
+	</style>
+</head>
+<body>
+	<div class="gnb-wrapper">
+		<div class="navi-wrapper">
+			<div class="navi-wrap wrapper clearfix">
+				<div class="navi">
+					<a href="#">MENU1</a>
+					<div class="sub-wrap">SUB1</div>
+				</div>
+				<div class="navi">
+					<a href="#">MENU2</a>
+					<div class="sub-wrap">SUB2</div>
+				</div>
+				<div class="navi">
+					<a href="#">MENU3</a>
+					<div class="sub-wrap">SUB3</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
