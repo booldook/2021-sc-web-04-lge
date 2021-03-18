@@ -69,9 +69,11 @@ SCSS문법
 	.sub-wrapper .sub-navi {padding: 0.75em 0;}
 	.sub-wrapper .sub-navi:first-child {padding: 0 0 0.75em 0;}
 	.sub-wrapper .sub-navi::after {display: inline-block; content: '＞'; color: #ae1a4a; padding-left: 0.25em;}
-	.sub-wrapper .sub-prd {}
-	.sub-wrapper .sub-prd > ul {}
-	.sub-wrapper .sub-prd > ul > .prd {}
+	.sub-wrapper .sub-prd {font-size: 0.8em; padding: 0.25em 0;}
+	.sub-wrapper .sub-prd a:hover {text-decoration: underline;}
+	.sub-wrapper .sub-prd > ul {padding: 0.5em 0;}
+	.sub-wrapper .sub-prd > ul > .prd {font-size: 1.05em; color: #121212; float: left;}
+	.sub-wrapper .sub-prd > ul > .prd::before {display: inline-block; content: '·'; padding: 0 0.25em 0 0.75em;}
 
 	.navi-wrapper2 {background-color: #ae1a4a;}
 
