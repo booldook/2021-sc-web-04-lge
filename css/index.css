@@ -22,8 +22,8 @@ background: #333 url('../img/common.png') left top/cover;
 @import './lge-font.css';
 
 html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; height: 10000px;}
-.wrapper {max-width: 1600px; margin: auto; padding: 0 30px;}
-.wrapper2 {max-width: 1300px; margin: auto; padding: 0 30px;}
+.wrapper {max-width: 1600px; margin: auto; padding: 0 2rem;}
+.wrapper2 {max-width: 1300px; margin: auto; padding: 0 2rem;}
 
 /********************* header-wrapper **********************/
 /* 
@@ -41,15 +41,16 @@ SCSS문법
 */
 
 .header-wrapper {}
-	.top-wrapper {background-color: #333; padding: 20px 0 6px 0;}
-		.top-wrapper ul.top-wrap {float: right; padding: 6px 16px; background-color: #ae1a4a; border-radius: 13px;}
+	.top-wrapper {background-color: #333; padding: 1.5em 0 .625em 0;}
+		.top-wrapper ul.top-wrap {float: right; padding: .5em .875em; background-color: #ae1a4a; border-radius: 1.25em;}
 			.top-wrapper ul.top-wrap li {float: left; color: #f8f8f8;}
-			.top-wrapper ul.top-wrap li:nth-child(2) {margin: 0 12px; opacity: .5;}
+			.top-wrapper ul.top-wrap li:nth-child(2) {margin: 0 .875em; opacity: .5;}
 
 	.navi-wrapper {background-color: #333; position: relative; z-index: 3;}
 	.navi-wrapper .logo {width: 164px; height: 43px; float: left; background: url('../img/common.png');}
 		.navi-wrapper .logo a {display: inline-block; width: 100%; height: 100%;}
 	.navi-wrapper .navi-wrap {float: right; color: #f8f8f8; font-size: 18px;}
+	.navi-wrapper .mb-navi-wrap {float: right; color: #f8f8f8; font-size: 24px; padding-top: 14px;}
 	.navi-wrapper .navi {float: left; padding: 16px 14px 30px 14px; height: 66px;}
 	.navi-wrapper .navi:hover {background-color: #ccc;}
 	.navi-wrapper .navi:hover > a {color: #333;}
@@ -66,8 +67,28 @@ SCSS문법
 	.sub-wrapper .sub-prd > ul {}
 	.sub-wrapper .sub-prd > ul > .prd {}
 
-
-
-
-
 	.navi-wrapper2 {background-color: #ae1a4a;}
+
+
+
+
+/******************** 반응형 **********************/
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
