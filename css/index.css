@@ -64,7 +64,7 @@ SCSS문법
 	.sub-wrapper {position: absolute; top: 63px; left: 0; height: 0; width: 100%; background-image: linear-gradient(#ccc, #f1f1f1); transition: height 0.35s; overflow: hidden; z-index: 1; box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);}
 	.sub-wrapper > .wrapper2 {height: 100%; padding: 1.5% 0;}
 	.sub-wrapper > .wrapper2 > div {float: left; height: 100%; color: #333;}
-	.sub-wrapper > .wrapper2 > div.sub-title {width: 25%; text-align: center; padding: 2%;}
+	.sub-wrapper > .wrapper2 > div.sub-title {width: 25%; text-align: center;}
 	.sub-wrapper > .wrapper2 > div.sub-wrap {width: 75%;}
 
 	.sub-wrapper .sub-title h2 {font-size: 0.875em; line-height: 1.75;}
@@ -75,6 +75,7 @@ SCSS문법
 	.sub-wrapper .sub-signature > div {width: 33.3333%;}
 	.sub-wrapper .sub-tv > div {width: 25%;}
 	.sub-wrapper .sub-gram > div {width: 25%;}
+	.sub-wrapper .sub-kitchen > div {width: 20%;}
 	
 
 	.sub-wrapper .sub-navi {padding: 0.75em 0;}
