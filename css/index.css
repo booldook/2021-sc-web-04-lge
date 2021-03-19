@@ -27,6 +27,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 .disp-table {display: table;}
 .disp-cell {display: table-cell; text-align: center; vertical-align: middle;}
+.pink {color: #ae1a4a;}
 
 /********************* header-wrapper **********************/
 /* 
@@ -73,11 +74,16 @@ SCSS문법
 	.sub-wrapper .sub-wrap > div {border-left: 1px solid #bbb; float: left; height: 100%; padding: 0 1.25%;}
 	.sub-wrapper .sub-signature > div {width: 33.3333%;}
 	.sub-wrapper .sub-tv > div {width: 25%;}
+	.sub-wrapper .sub-gram > div {width: 25%;}
 	
 
 	.sub-wrapper .sub-navi {padding: 0.75em 0;}
 	.sub-wrapper .sub-navi:first-child {padding: 0 0 0.75em 0;}
 	.sub-wrapper .sub-navi::after {display: inline-block; content: '＞'; color: #ae1a4a; padding-left: 0.25em;}
+	.sub-wrapper .sub-bookmark i {padding-left: 0.25em; color: #ae1a4a;}
+	.sub-wrapper .sub-bookmark {margin: 1em 0;}
+	.sub-wrapper .sub-mt {margin: 1em 0;}
+
 	.sub-wrapper .sub-prd {font-size: 0.8em; padding: 0.25em 0;}
 	.sub-wrapper .sub-prd a:hover {text-decoration: underline;}
 	.sub-wrapper .sub-prd > ul {padding: 0.5em 0;}
