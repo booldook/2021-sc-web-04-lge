@@ -81,8 +81,9 @@ SCSS문법
 	.sub-wrapper .sub-navi {padding: 0.75em 0;}
 	.sub-wrapper .sub-navi:first-child {padding: 0 0 0.75em 0;}
 	.sub-wrapper .sub-navi::after {display: inline-block; content: '＞'; color: #ae1a4a; padding-left: 0.25em;}
-	.sub-wrapper .sub-bookmark i {padding-left: 0.25em; color: #ae1a4a;}
 	.sub-wrapper .sub-bookmark {margin: 1em 0;}
+	.sub-wrapper .sub-bookmark::after {display: inline-block; content: ' '; margin-left: 0.5em; width: 13px; height: 18px; 
+		background: url('../img/common.png') no-repeat 0 -50px; vertical-align: bottom;}
 	.sub-wrapper .sub-mt {margin: 1em 0;}
 
 	.sub-wrapper .sub-prd {font-size: 0.8em; padding: 0.25em 0;}
