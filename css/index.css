@@ -88,15 +88,17 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 /********************* main-wrapper **********************/
 .main-wrapper {}
-.main-wrapper .slide {position: relative; background-size: cover; background-repeat: no-repeat; background-position: center;}
+.main-wrapper .slide {padding: 10% 15% 25% 15%; background-size: cover; background-repeat: no-repeat; 
+	background-position: 70% center;}
 .main-wrapper .slide:nth-child(1) {background-image: url('../img/main01.jpg');}
 .main-wrapper .slide:nth-child(2) {background-image: url('../img/main02.jpg');}
+.main-wrapper .slide:nth-child(3) {background-image: url('../img/main03.jpg');}
 
-.main-wrapper .slide > .content {font-size: 1.5em; padding: 15%;}
+.main-wrapper .slide > .content {font-size: 1.5em;}
 .main-wrapper .slide > .content > .slogan {padding: 1em 0; transition: all 1s; line-height: 1.25;} 
 .main-wrapper .slide > .content > .slogan > br {display: block;} 
 .main-wrapper .slide > .content > .brand {padding-bottom: 1em; transition: all 1s;}
-.main-wrapper .slide > .content > .brand > img {max-width: 40%; transition: all 1s;} 
+.main-wrapper .slide > .content > .brand > img {max-width: 60%; transition: all 1s;} 
 .main-wrapper .slide > .content > .bt-link {} 
 
 
@@ -110,7 +112,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 @media (min-width: 768px) {
 	.wrapper {padding: 0 1rem;}
 	.wrapper2 {padding: 0 1rem;}
-	.main-wrapper .slide > .content > .brand > img {max-width: 60%;} 
+	.main-wrapper .slide {padding: 8% 12% 12% 12%; background-position: center;}
 }
 
 @media (min-width: 992px) {
@@ -120,12 +122,9 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.navi-wrapper2 .icon-wrap img {margin-right: 0.5em; width: auto;}
 	.navi-wrapper2 .icon-wrap span {margin-right: 0.5em;}
 
-	.main-wrapper .slide {padding: 10% 15%;}
 	.main-wrapper .slide > .content {font-size: 1.875em;}
 	.main-wrapper .slide > .content > .slogan > br {display: none;} 
 	.main-wrapper .slide > .content > .brand > img {max-width: 80%;} 
-
-	
 }
 
 @media (min-width: 1200px) {
@@ -135,6 +134,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 @media (min-width: 1400px) {
 	.navi-wrapper .navi-wrap {display: block;}
 	.navi-wrapper .mb-navi-wrap {display: none;}
+	.main-wrapper .slide {padding: 6% 12% 16% 12%;}
 	.main-wrapper .slide > .content {font-size: 2.125em;}
 	.main-wrapper .slide > .content > .brand > img {max-width: 100%;}
 }
