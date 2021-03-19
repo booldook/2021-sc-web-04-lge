@@ -22,8 +22,8 @@ background: #333 url('../img/common.png') left top/cover;
 @import './lge-font.css';
 
 html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; height: 10000px;}
-.wrapper {max-width: 1600px; margin: auto; padding: 0 2rem;}
-.wrapper2 {max-width: 1300px; margin: auto; padding: 0 2rem;}
+.wrapper {max-width: 1600px; margin: auto; padding: 0 .5rem;}
+.wrapper2 {max-width: 1300px; margin: auto; padding: 0 .5rem;}
 
 .disp-table {display: table;}
 .disp-cell {display: table-cell; text-align: center; vertical-align: middle;}
@@ -93,11 +93,11 @@ SCSS문법
 	.sub-wrapper .sub-prd > ul > .prd::before {display: inline-block; content: '·'; padding: 0 0.25em 0 0.75em;}
 
 	.navi-wrapper2 {background-color: #ae1a4a; color: #f9f9f9;}
-	.navi-wrapper2 .icon-wrap {float: right;}
-	.navi-wrapper2 .icon-wrap > .icon {float: left; height: 32px; line-height: 32px; margin: 0.625em;}
+	.navi-wrapper2 .icon-wrap {float: right; text-align: center;}
+	.navi-wrapper2 .icon-wrap > .icon {display: inline-block; height: 32px; line-height: 32px; margin: 0.325em;}
 	.navi-wrapper2 .icon-wrap > .icon:nth-child(4) {margin-right: 1em;}
-	.navi-wrapper2 .icon-wrap img {vertical-align: middle; margin-right: 0.5em;}
-	.navi-wrapper2 .icon-wrap span {font-weight: bold; margin-right: 0.5em;}
+	.navi-wrapper2 .icon-wrap img {vertical-align: middle; margin-right: 0.25em; width: 18px;}
+	.navi-wrapper2 .icon-wrap span {font-weight: bold; margin-right: 0.25em;}
 
 
 
@@ -112,7 +112,11 @@ SCSS문법
 }
 
 @media (min-width: 992px) {
-
+	.wrapper {padding: 0 2rem;}
+	.wrapper2 {padding: 0 2rem;}
+	.navi-wrapper2 .icon-wrap > .icon {float: left; margin: 0.625em;}
+	.navi-wrapper2 .icon-wrap img {margin-right: 0.5em; width: auto;}
+	.navi-wrapper2 .icon-wrap span {margin-right: 0.5em;}
 }
 
 @media (min-width: 1200px) {
