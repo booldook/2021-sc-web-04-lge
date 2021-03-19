@@ -7,13 +7,39 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
-		.sub-wrap {width: 300px; height: 300px; border: 2px solid red; display: flex; justify-content: center; align-items: center; flex-direction: column;}
+		.wrapper {max-width: 1200px; height: 300px; margin: 100px auto; border: 10px solid red;}
+
+		 /* 한줄일때 */
+		/* .wrapper > h1 {border: 10px solid blue; text-align: center; line-height: 260px;} */
+		
+		.wrapper > h1 {border: 10px solid blue; text-align: center; height: 100%; vertical-align: middle;}
+		img {vertical-align: middle;}
+		.table {border: 10px solid green; margin: auto; display: table; width: 50%; height: 300px;}
+		.table > .cell {border: 10px solid red; text-align: center; display: table-cell; vertical-align: middle;}
+		/* .table td {border: 10px solid red; text-align: center; vertical-align: middle;} */
+
+		.pct {border: 10px solid red; width: 50%; height: 500px; padding: 20%;}
+
 	</style>
 </head>
 <body>
-	<div class="sub-wrap">
-		<div>가나다라</div>
-		<h2>마바사아</h2>
+	<div class="wrapper">
+		<h1>가나다라 <img src="../img/wing01.png" alt="">마바사아</h1>
 	</div>
+	<div class="table">
+		<div class="cell">
+			가나다라 <img src="../img/wing01.png" alt="">마바사아
+		</div>
+	</div>
+	<div class="pct">
+		가나다라
+	</div>
+	<!-- <table class="table">
+		<tr>
+			<td>
+				가나다라 <img src="../img/wing01.png" alt="">마바사아
+			</td>
+		</tr>
+	</table> -->
 </body>
 </html>
