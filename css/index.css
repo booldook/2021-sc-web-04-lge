@@ -59,13 +59,21 @@ SCSS문법
 
 	.sub-wrapper {position: absolute; top: 63px; left: 0; height: 0; width: 100%; background-image: linear-gradient(#ccc, #f1f1f1); transition: height 0.35s; overflow: hidden; z-index: 1; box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);}
 	.sub-wrapper > .wrapper2 {height: 100%; padding: 1.5% 0;}
-	.sub-wrapper .sub-wrap {float: left; width: 25%; height: 100%; padding: 0 1.25%; color: #333;}
-	.sub-wrapper .sub-wrap:not(:last-child) {border-right: 1px solid #bbb;}
-	.sub-wrapper .sub-wrap.title {text-align: center;}
-	.sub-wrapper .sub-wrap.title > div {padding: 5% 10% 10% 10%;}
-	.sub-wrapper .sub-wrap.title > h2 {font-size: 0.875em; line-height: 1.75;}
-	.sub-wrapper .sub-wrap.title > h2 span {font-size: 1.25em; color: #ae1a4a;}
-	.sub-wrapper .sub-wrap.title:hover a {text-decoration: underline;}
+	.sub-wrapper > .wrapper2 > div {float: left; height: 100%; color: #333;}
+	.sub-wrapper > .wrapper2 > div.sub-title {width: 25%; text-align: center;}
+	.sub-wrapper > .wrapper2 > div.sub-wrap {width: 75%;}
+
+	/* .sub-wrapper .sub-wrap {float: left; width: 25%; height: 100%; padding: 0 1.25%; } */
+
+	
+	.sub-wrapper .sub-title > div {padding: 5% 10% 10% 10%;}
+	.sub-wrapper .sub-title > h2 {font-size: 0.875em; line-height: 1.75;}
+	.sub-wrapper .sub-title > h2 span {font-size: 1.25em; color: #ae1a4a;}
+	.sub-wrapper .sub-title:hover a {text-decoration: underline;}
+	
+	.sub-wrapper .sub-wrap > div {border-left: 1px solid #bbb;}
+	
+
 	.sub-wrapper .sub-navi {padding: 0.75em 0;}
 	.sub-wrapper .sub-navi:first-child {padding: 0 0 0.75em 0;}
 	.sub-wrapper .sub-navi::after {display: inline-block; content: '＞'; color: #ae1a4a; padding-left: 0.25em;}
