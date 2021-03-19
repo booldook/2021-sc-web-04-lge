@@ -49,4 +49,4 @@ img {vertical-align: bottom;}
 /******************** Base ***********************/
 .clearfix::after {display: block; content: ""; clear: both;}
 .img {width: 100%;}
-.imgx {max-width: 100%; width: 100%;}
+.imgx {max-width: 100%;}

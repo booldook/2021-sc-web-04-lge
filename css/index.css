@@ -108,7 +108,8 @@ SCSS문법
 }
 
 @media (min-width: 768px) {
-
+	.wrapper {padding: 0 1rem;}
+	.wrapper2 {padding: 0 1rem;}
 }
 
 @media (min-width: 992px) {
