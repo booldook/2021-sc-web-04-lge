@@ -63,15 +63,15 @@ SCSS문법
 	.sub-wrapper > .wrapper2 > div.sub-title {width: 25%; text-align: center;}
 	.sub-wrapper > .wrapper2 > div.sub-wrap {width: 75%;}
 
-	/* .sub-wrapper .sub-wrap {float: left; width: 25%; height: 100%; padding: 0 1.25%; } */
-
-	
 	.sub-wrapper .sub-title > div {padding: 5% 10% 10% 10%;}
 	.sub-wrapper .sub-title > h2 {font-size: 0.875em; line-height: 1.75;}
 	.sub-wrapper .sub-title > h2 span {font-size: 1.25em; color: #ae1a4a;}
 	.sub-wrapper .sub-title:hover a {text-decoration: underline;}
 	
-	.sub-wrapper .sub-wrap > div {border-left: 1px solid #bbb;}
+	.sub-wrapper .sub-wrap > div {border-left: 1px solid #bbb; float: left; height: 100%; padding: 0 1.25%;}
+
+	.sub-wrapper .sub-signature > div {width: 33.3333%;}
+	.sub-wrapper .sub-tv > div {width: 25%;}
 	
 
 	.sub-wrapper .sub-navi {padding: 0.75em 0;}
