@@ -24,6 +24,7 @@ background: #333 url('../img/common.png') left top/cover;
 html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; height: 10000px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 .5rem;}
 .wrapper2 {max-width: 1300px; margin: auto; padding: 0 .5rem;}
+.wrapper3 {max-width: 1414px; margin: auto; padding: 0 .5rem;}
 
 .disp-table {display: table;}
 .disp-cell {display: table-cell; text-align: center; vertical-align: middle;}
@@ -108,6 +109,15 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .main-wrapper .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
 .main-wrapper .pager-wrapper > a.bt-pause.active {color: #ae1a4a;}
 
+/********************* link-wrapper **********************/
+.link-wrapper {}
+.link-wrapper .link-wrap {margin: 1.5em 0;}
+.link-wrapper .link-wrap:first-child {width: 100%; margin-left: 0}
+.link-wrapper .link-wrap:last-child {width: 100%; margin-left: 0}
+.link-wrapper .link-wrap:first-child > li {width: 100%; margin: 1% 0;}
+.link-wrapper .link-wrap:last-child > li {width: 100%; margin: 1% 0;}
+.link-wrapper .link-wrap > li {float: left;}
+
 
 /******************** 반응형 **********************/
 @media (min-width: 576px) {
@@ -118,6 +128,10 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.wrapper {padding: 0 1rem;}
 	.wrapper2 {padding: 0 1rem;}
 	.main-wrapper .slide {padding: 8% 12% 12% 12%; background-position: center;}
+	.link-wrapper .link-wrap:first-child {width: 101%; margin-left: -0.5%;}
+	.link-wrapper .link-wrap:last-child {width: 102%; margin-left: -1%;}
+	.link-wrapper .link-wrap:first-child > li {width: 32.3333%; margin: .5%;}
+	.link-wrapper .link-wrap:last-child > li {width: 48%; margin: 1%;}
 }
 
 @media (min-width: 992px) {
