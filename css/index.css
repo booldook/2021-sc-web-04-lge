@@ -24,7 +24,7 @@ background: #333 url('../img/common.png') left top/cover;
 html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; height: 10000px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 .5rem;}
 .wrapper2 {max-width: 1300px; margin: auto; padding: 0 .5rem;}
-.wrapper3 {max-width: 1414px; margin: auto; padding: 0 .5rem;}
+.wrapper3 {max-width: 1414px; margin: auto; padding: 0 .5rem; overflow: hidden;}
 
 .disp-table {display: table;}
 .disp-cell {display: table-cell; text-align: center; vertical-align: middle;}
@@ -116,7 +116,9 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .link-wrapper .link-wrap:last-child {width: 100%; margin-left: 0}
 .link-wrapper .link-wrap:first-child > li {width: 100%; margin: 1% 0;}
 .link-wrapper .link-wrap:last-child > li {width: 100%; margin: 1% 0;}
-.link-wrapper .link-wrap > li {float: left;}
+.link-wrapper .link-wrap > li {float: left; background-color: #000;}
+.link-wrapper .link-wrap > li img {transition: all .75s; opacity: .9;}
+.link-wrapper .link-wrap > li:hover img {opacity: 1;}
 
 
 /******************** 반응형 **********************/
@@ -130,8 +132,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.main-wrapper .slide {padding: 8% 12% 12% 12%; background-position: center;}
 	.link-wrapper .link-wrap:first-child {width: 101%; margin-left: -0.5%;}
 	.link-wrapper .link-wrap:last-child {width: 102%; margin-left: -1%;}
-	.link-wrapper .link-wrap:first-child > li {width: 32.3333%; margin: .5%;}
-	.link-wrapper .link-wrap:last-child > li {width: 48%; margin: 1%;}
+	.link-wrapper .link-wrap:first-child > li {width: 32.3333%; margin: 0.25% .5%;}
+	.link-wrapper .link-wrap:last-child > li {width: 48%; margin: 0.25% 1%;}
 }
 
 @media (min-width: 992px) {
