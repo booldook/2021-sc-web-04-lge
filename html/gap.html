@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>갭을 맞춰보자</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		.wrapper {max-width: 1000px; margin: 30px auto; border: 1px solid red;}
+		.list-wrap {border: 1px solid blue;}
+		.list {border: 1px solid green; float: left;}
+
+		.wrapper1 .list {width: 100%;}
+		.wrapper2 .list {width: 33.3333%;}
+		.wrapper3 .list {width: 50%;}
+	</style>
+</head>
+<body>
+	<div class="wrapper wrapper1">
+		<div class="list-wrap clearfix">
+			<div class="list">
+				<img src="../img/main04.jpg" class="img">
+			</div>
+		</div>
+	</div>
+	<div class="wrapper wrapper2">
+		<div class="list-wrap clearfix">
+			<div class="list">
+				<img src="../img/link01.jpg" class="img">
+			</div>
+			<div class="list">
+				<img src="../img/link02.jpg" class="img">
+			</div>
+			<div class="list">
+				<img src="../img/link03.jpg" class="img">
+			</div>
+		</div>
+	</div>
+	<div class="wrapper wrapper3">
+		<div class="list-wrap clearfix">
+			<div class="list">
+				<img src="../img/link04.jpg" class="img">
+			</div>
+			<div class="list">
+				<img src="../img/link05.jpg" class="img">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
