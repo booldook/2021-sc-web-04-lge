@@ -7,17 +7,25 @@
 	<title>갭을 맞춰보자</title>
 	<link rel="stylesheet" href="../css/base.css">
 	<style>
-		.wrapper {max-width: 1000px; margin: 30px auto; border: 1px solid red; overflow: hidden;}
+		.wrapper {max-width: 1000px; margin: 30px auto; border: 1px solid red; /* overflow: hidden; */}
 		.list-wrap {border: 1px solid blue;}
 		.list {border: 1px solid green; float: left;}
 
 		.wrapper1 > .list-wrap >.list {width: 100%;}
 
+		.wrapper2 > .list-wrap {width: 102%;}
+		.wrapper2 > .list-wrap > .list {width: 31.3333%; margin-right: 2%;}
+
+		.wrapper3 > .list-wrap {width: 102%;}
+		.wrapper3 > .list-wrap > .list {width: 48%; margin-right: 2%;}
+
+		/*
 		.wrapper2 > .list-wrap {width: 102%; margin-left: -1%;}
 		.wrapper2 > .list-wrap > .list {width: 31.3333%; margin: 0 1%;}
 		
 		.wrapper3 > .list-wrap {width: 104%; margin-left: -2%;}
 		.wrapper3 > .list-wrap > .list {width: 46%; margin: 0 2%;}
+		*/
 	</style>
 </head>
 <body>
