@@ -21,3 +21,13 @@ $(".best-wrapper .pager-wrapper a.pager").click(function(e){
 	$(".best-wrapper .pager-wrapper a.pager").removeClass('active')
 	$(this).addClass('active')
 })
+
+var swiper = new Swiper('.swiper-container', {
+	slidesPerView: 4,
+	spaceBetween: 30,
+	loop: true,
+	navigation: {
+		nextEl: '.slide-wrapper .bt-next',
+		prevEl: '.slide-wrapper .bt-prev',
+	},
+})
