@@ -65,7 +65,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.sub-wrapper .sub-kitchen > div {width: 20%;}
 	
 
-	.sub-wrapper .sub-navi {padding: 0.75em 0;}
+	.sub-wrapper .sub-navi {padding: 0.75em 0; line-height: 1.25;}
 	.sub-wrapper .sub-navi:first-child {padding: 0 0 0.75em 0;}
 	.sub-wrapper .sub-navi::after {display: inline-block; content: '＞'; color: #ae1a4a; padding-left: 0.25em;}
 	.sub-wrapper .sub-bookmark {margin: 1em 0;}
@@ -99,9 +99,14 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .main-wrapper .slide > .content > .slogan > br {display: block;} 
 .main-wrapper .slide > .content > .brand {padding-bottom: 1em; transition: all 1s;}
 .main-wrapper .slide > .content > .brand > img {max-width: 60%; transition: all 1s;} 
-.main-wrapper .slide > .content > .bt-link {} 
+.main-wrapper .slide > .content button {border: 1px solid #333; background-color: transparent; padding: 0.5em 2em; font-size: 1.125rem; outline: none;	font-family: inherit;} 
 
-
+.main-wrapper .pager-wrapper {text-align: center; margin: 2em 0;}
+.main-wrapper .pager-wrapper > a {vertical-align: middle; margin: 0 0.25em; color: #ccc;}
+.main-wrapper .pager-wrapper > a.pager {display: inline-block; width: 18px; height: 18px; border: 2px solid #ccc; border-radius: 9px;}
+.main-wrapper .pager-wrapper > a.pager.active {border: 2px solid #ae1a4a; width: 28px; background-color: #ae1a4a;}
+.main-wrapper .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
+.main-wrapper .pager-wrapper > a.bt-pause.active {color: #ae1a4a;}
 
 
 /******************** 반응형 **********************/
