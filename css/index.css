@@ -126,13 +126,17 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 /********************* best-wrapper **********************/
 .best-wrapper {text-align: center;}
 .best-wrapper > .title-wrapper {padding-top: 3.5em;}
-.best-wrapper > .slide-wrapper {margin-top: 1.5em; padding-bottom: 3em;}
+.best-wrapper > .slide-wrapper {margin-top: 1.5em; padding-bottom: 120px; border: 1px solid red;}
 .best-wrapper > .slide-wrapper {position: relative;}
-.best-wrapper > .slide-wrapper .bt {position: absolute; top: 150px; font-size: 4em; color: #999; cursor: pointer;}
+.best-wrapper > .slide-wrapper .bt {position: absolute; top: 150px; font-size: 4em; color: #999; cursor: pointer; outline: none;}
 .best-wrapper > .slide-wrapper .bt:hover {color: #444;}
 .best-wrapper > .slide-wrapper .bt.bt-prev {left: 0;}
 .best-wrapper > .slide-wrapper .bt.bt-next {right: 0;}
-.best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto; height: 356px; overflow: hidden;}
+.best-wrapper > .slide-wrapper > .swiper-pagination {width: 100%; text-align: center; margin-top: 24px;}
+.best-wrapper > .slide-wrapper > .swiper-pagination > .swiper-pagination-bullet {width: 16px; height: 16px; margin: 2px; outline: none;}
+.best-wrapper > .slide-wrapper > .swiper-pagination > .swiper-pagination-bullet-active {background-color: #ae1a4a;}
+
+.best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto; height: 356px;}
 /*
 .best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap {height: 100%;}
 .best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide {float: left; width: 100%; height: 100%; border: 1px solid #ccc;}

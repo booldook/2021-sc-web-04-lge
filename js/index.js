@@ -30,4 +30,8 @@ var swiper = new Swiper('.swiper-container', {
 		nextEl: '.slide-wrapper .bt-next',
 		prevEl: '.slide-wrapper .bt-prev',
 	},
+	pagination: {
+		el: '.slide-wrapper .swiper-pagination',
+		clickable: true
+	},
 })
