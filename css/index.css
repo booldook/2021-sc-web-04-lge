@@ -132,9 +132,9 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .best-wrapper > .slide-wrapper .bt:hover {color: #444;}
 .best-wrapper > .slide-wrapper .bt.bt-prev {left: 0;}
 .best-wrapper > .slide-wrapper .bt.bt-next {right: 0;}
-.best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto;}
-.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap {width: 101%;} 
-.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide {float: left; width: 24%; margin-right: 1%; height: 356px; border: 1px solid #ccc;} 
+.best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto; height: 356px; overflow: hidden;}
+.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap {height: 100%;}
+.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide {float: left; width: 100%; height: 100%; border: 1px solid #ccc;} 
 .best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide > li {height: 280px; display: table; width: 100%;}
 .best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide > li > div {display: table-cell; vertical-align: middle;}
 .best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide > div {height: 74px; padding-top: .5em;}
@@ -157,6 +157,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.link-wrapper .link-wrap:last-child {width: 102%; margin-left: -1%;}
 	.link-wrapper .link-wrap:first-child > li {width: 32.3333%; margin: 0.25% .5%;}
 	.link-wrapper .link-wrap:last-child > li {width: 48%; margin: 0.25% 1%;}
+	.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap {width: 102%;} 
+	.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide {float: left; width: 48%; margin-right: 2%;}
 }
 
 @media (min-width: 992px) {
@@ -188,6 +190,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.main-wrapper .slide > .content > .brand > img {max-width: 100%;}
 	.best-wrapper > .title-wrapper {background-position: right 15% bottom;}
 	.best-wrapper > .slide-wrapper {background-position: left 20% bottom;}
+	.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap {width: 101%;} 
+	.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide {float: left; width: 24%; margin-right: 1%;}
 }
 
 @media (min-width: 1600px) {
