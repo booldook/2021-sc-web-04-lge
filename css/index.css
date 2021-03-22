@@ -102,7 +102,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .main-wrapper .slide > .content button {border: 1px solid #333; background-color: transparent; padding: 0.5em 2em; font-size: 1.125rem; outline: none;	font-family: inherit;} 
 
 .main-wrapper .pager-wrapper {text-align: center; margin: 2em 0;}
-.main-wrapper .pager-wrapper > a {vertical-align: middle; margin: 0 0.25em; color: #ccc;}
+.main-wrapper .pager-wrapper > a {vertical-align: middle; margin: 0 0.25em; color: #ccc; transition: all 0.5s;}
 .main-wrapper .pager-wrapper > a.pager {display: inline-block; width: 18px; height: 18px; border: 2px solid #ccc; border-radius: 9px;}
 .main-wrapper .pager-wrapper > a.pager.active {border: 2px solid #ae1a4a; width: 28px; background-color: #ae1a4a;}
 .main-wrapper .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
