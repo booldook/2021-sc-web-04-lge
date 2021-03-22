@@ -126,6 +126,15 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 /********************* best-wrapper **********************/
 .best-wrapper {text-align: center;}
 .best-wrapper > .title-wrapper {padding-top: 3.5em;}
+.best-wrapper > .slide-wrapper {margin-top: 1.5em; padding-bottom: 3em;}
+.best-wrapper > .slide-wrapper {position: relative;}
+.best-wrapper > .slide-wrapper .bt {position: absolute; top: 0; font-size: 4em; color: #999; cursor: pointer;}
+.best-wrapper > .slide-wrapper .bt:hover {color: #444;}
+.best-wrapper > .slide-wrapper .bt.bt-prev {left: 0;}
+.best-wrapper > .slide-wrapper .bt.bt-next {right: 0;}
+.best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto; border: 1px solid red;}
+.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap {} 
+.best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide {float: left; width: 25%; height: 356px; border: 1px solid #ccc;} 
 
 
 
@@ -155,10 +164,13 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.main-wrapper .slide > .content {font-size: 1.875em;}
 	.main-wrapper .slide > .content > .slogan > br {display: none;} 
 	.main-wrapper .slide > .content > .brand > img {max-width: 80%;} 
+
+	.best-wrapper > .title-wrapper {background-image: url('../img/bestseller_bg_top.jpg'); background-repeat: no-repeat; background-position: right bottom;}
+	.best-wrapper > .slide-wrapper {background-image: url('../img/bestseller_bg_bottom.jpg'); background-repeat: no-repeat; background-position: left bottom;}
 }
 
 @media (min-width: 1200px) {
-	.best-wrapper > .title-wrapper {background-image: url('../img/bestseller_bg_top.jpg'); background-repeat: no-repeat; background-position: right bottom;}
+	
 }
 
 @media (min-width: 1400px) {
@@ -170,6 +182,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.main-wrapper .slide > .content {font-size: 2.125em;}
 	.main-wrapper .slide > .content > .brand > img {max-width: 100%;}
 	.best-wrapper > .title-wrapper {background-position: right 15% bottom;}
+	.best-wrapper > .slide-wrapper {background-position: left 20% bottom;}
 }
 
 @media (min-width: 1600px) {
