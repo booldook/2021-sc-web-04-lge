@@ -102,7 +102,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 /********************* main-wrapper **********************/
 .main-wrapper {max-width: 1900px; margin: auto;}
 .main-wrapper .slide {padding-top: 34.73%; position: relative; height: 0; overflow: hidden;
-	background-size: cover; background-repeat: no-repeat; background-position: center; border: 2px solid red;}
+	background-size: cover; background-repeat: no-repeat; background-position: center;}
 .main-wrapper .slide:nth-child(1) {background-image: url('../img/main01.jpg');}
 .main-wrapper .slide:nth-child(2) {background-image: url('../img/main02.jpg');}
 .main-wrapper .slide:nth-child(3) {background-image: url('../img/main03.jpg');}
