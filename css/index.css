@@ -159,7 +159,21 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .best-wrapper > .slide-wrapper > .slide-stage > .slide-wrap > .slide > div > .best-cont {color: #777;}
 
 
-
+/********************* evt-wrapper **********************/
+.evt-wrapper {background-color: #f8f8f8; padding: 5em 0;}
+.evt-wrapper > div > .title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative;}
+.evt-wrapper > div > .title > span {border-bottom: 1px solid #999; display: inline-block;}
+.evt-wrapper > div > .title > .bt-more {position: absolute; top: 0; right: 0; font-size: 0.625em; color: #777;}
+.evt-wrapper > div > .title > .bt-more::after {display: inline-block; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
+.evt-wrapper .cont-wrapper {background-color: #fff; margin: 3em auto 2em auto;}
+.evt-wrapper .cont-wrapper > div {float: left;}
+.evt-wrapper .cont-wrapper > div.banner-wrap {width: 100%; max-width: 800px;}
+.evt-wrapper .cont-wrapper > div.cont-wrap {width: 100%; padding: 3%;}
+.evt-wrapper .cont-wrapper > div.cont-wrap > h4.title {font-size: 1.5em;}
+.evt-wrapper .cont-wrapper > div.cont-wrap > p.content {font-size: 1.25em; color: #777; line-height: 1.5; padding: 2em 0;}
+.evt-wrapper .cont-wrapper > div.cont-wrap > div.date {font-size: 1.125em; padding-bottom: 2em;}
+.evt-wrapper .cont-wrapper > div.cont-wrap > button.bt-detail {border: 1px solid #333; color: #333; padding: 0.5em 2em; background-color: transparent; font-family: inherit; font-size: inherit; cursor: pointer; transition: all 0.25s;}
+.evt-wrapper .cont-wrapper > div.cont-wrap > button.bt-detail:hover {background-color: #333; color: #f9f9f9;}
 
 /******************** 반응형 **********************/
 @media (min-width: 576px) {
@@ -194,6 +208,9 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 	.best-wrapper > .title-wrapper {background-image: url('../img/bestseller_bg_top.jpg'); background-repeat: no-repeat; background-position: right bottom;}
 	.best-wrapper > .slide-wrapper {background-image: url('../img/bestseller_bg_bottom.jpg'); background-repeat: no-repeat; background-position: left bottom;}
+
+	.evt-wrapper .cont-wrapper > div.banner-wrap {width: 60%;}
+	.evt-wrapper .cont-wrapper > div.cont-wrap {width: 40%;}
 }
 
 @media (min-width: 1200px) {
