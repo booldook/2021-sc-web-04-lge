@@ -37,9 +37,14 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
 .pager-wrapper > a.bt-pause.active {color: #ae1a4a;}
 
-.swiper-pagination {width: 100%; text-align: center; margin-top: 24px;}
+.swiper-pagination {width: 100%; text-align: center; margin: 24px 0 36px 0; position: static;}
 .swiper-pagination > .swiper-pagination-bullet {width: 18px; height: 18px; margin: 2px; outline: none; background-color: transparent; border: 2px solid #ccc; opacity: 1; border-radius: 9px; transition: all 0.5s;}
 .swiper-pagination > .swiper-pagination-bullet-active {background-color: #ae1a4a; border-color: #ae1a4a; width: 28px;}
+
+.bt-swiper {position: absolute; z-index: 9; top: 150px; font-size: 4em; color: #999; cursor: pointer; outline: none;}
+.bt-swiper:hover {color: #444;}
+.bt-swiper.bt-prev {left: 0;}
+.bt-swiper.bt-next {right: 0;}
 
 /********************* header-wrapper **********************/
 .header-wrapper {}
@@ -101,7 +106,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 /********************* main-wrapper **********************/
 .main-wrapper {max-width: 1900px; margin: auto;}
-.main-wrapper .slide {padding-top: 34.73%; position: relative; height: 0; overflow: hidden;
+.main-wrapper .slide {padding-top: 80%; position: relative; height: 0; overflow: hidden;
 	background-size: cover; background-repeat: no-repeat; background-position: center;}
 .main-wrapper .slide:nth-child(1) {background-image: url('../img/main01.jpg');}
 .main-wrapper .slide:nth-child(2) {background-image: url('../img/main02.jpg');}
@@ -113,8 +118,11 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .main-wrapper .slide:nth-child(8) {background-image: url('../img/main08.jpg');}
 .main-wrapper .slide:nth-child(9) {background-image: url('../img/main09.jpg');}
 .main-wrapper .slide:nth-child(10) {background-image: url('../img/main10.jpg');}
+.main-wrapper .bt-swiper {top: calc(50% - 32px);}
+.main-wrapper .bt-swiper.bt-prev {left: 3%;}
+.main-wrapper .bt-swiper.bt-next {right: 3%;}
 
-.main-wrapper .slide > .content {font-size: 1.5em;}
+.main-wrapper .slide > .content {font-size: 1.5em; position: absolute; top: 17.5%; left: 15%;}
 .main-wrapper .slide > .content > .slogan {padding: 1em 0; transition: all 1s; line-height: 1.25;} 
 .main-wrapper .slide > .content > .slogan > br {display: block;} 
 .main-wrapper .slide > .content > .brand {padding-bottom: 1em; transition: all 1s;}
@@ -138,11 +146,6 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .best-wrapper > .title-wrapper {padding-top: 3.5em;}
 .best-wrapper > .slide-wrapper {margin-top: 1.5em; padding-bottom: 120px;}
 .best-wrapper > .slide-wrapper {position: relative;}
-.best-wrapper > .slide-wrapper .bt {position: absolute; top: 150px; font-size: 4em; color: #999; cursor: pointer; outline: none;}
-.best-wrapper > .slide-wrapper .bt:hover {color: #444;}
-.best-wrapper > .slide-wrapper .bt.bt-prev {left: 0;}
-.best-wrapper > .slide-wrapper .bt.bt-next {right: 0;}
-
 .best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto; height: 356px;}
 .best-wrapper > .slide-wrapper .slide {border: 1px solid #ccc;}
 /*
@@ -160,13 +163,14 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 /******************** 반응형 **********************/
 @media (min-width: 576px) {
-
+	.main-wrapper .slide {padding-top: 70%;}
 }
 
 @media (min-width: 768px) {
 	.wrapper {padding: 0 1rem;}
 	.wrapper2 {padding: 0 1rem;}
-
+	.main-wrapper .slide {padding-top: 60%;}
+	
 	.link-wrapper .link-wrap:first-child {width: 101%; margin-left: -0.5%;}
 	.link-wrapper .link-wrap:last-child {width: 102%; margin-left: -1%;}
 	.link-wrapper .link-wrap:first-child > li {width: 32.3333%; margin: 0.25% .5%;}
@@ -183,7 +187,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.navi-wrapper2 .icon-wrap > .icon {float: left; margin: 0.625em;}
 	.navi-wrapper2 .icon-wrap img {margin-right: 0.5em; width: auto;}
 	.navi-wrapper2 .icon-wrap span {margin-right: 0.5em;}
-
+	.main-wrapper .slide {padding-top: 50%;}
 	.main-wrapper .slide > .content {font-size: 1.875em;}
 	.main-wrapper .slide > .content > .slogan > br {display: none;} 
 	.main-wrapper .slide > .content > .brand > img {max-width: 80%;} 
@@ -201,7 +205,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.navi-wrapper {padding-top: 0;}
 	.navi-wrapper .mb-navi-wrap {display: none;}
 	.navi-wrapper .navi-wrap {display: block;}
-
+	.main-wrapper .slide {padding-top: 34.73%;}
 	.main-wrapper .slide > .content {font-size: 2.125em;}
 	.main-wrapper .slide > .content > .brand > img {max-width: 100%;}
 	.best-wrapper > .title-wrapper {background-position: right 15% bottom;}
