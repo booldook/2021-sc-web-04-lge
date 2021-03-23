@@ -50,3 +50,7 @@ img {vertical-align: bottom;}
 .clearfix::after {display: block; content: ""; clear: both;}
 .img {width: 100%;}
 .imgx {max-width: 100%;}
+
+.swiper-button-prev, 
+.swiper-button-next, 
+.swiper-pagination * {outline: none; cursor: pointer;}
