@@ -37,6 +37,10 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .pager-wrapper > a.bt-play.active {color: #ae1a4a;}
 .pager-wrapper > a.bt-pause.active {color: #ae1a4a;}
 
+.swiper-pagination {width: 100%; text-align: center; margin-top: 24px;}
+.swiper-pagination > .swiper-pagination-bullet {width: 18px; height: 18px; margin: 2px; outline: none; background-color: transparent; border: 2px solid #ccc; opacity: 1; border-radius: 9px; transition: all 0.5s;}
+.swiper-pagination > .swiper-pagination-bullet-active {background-color: #ae1a4a; border-color: #ae1a4a; width: 28px;}
+
 /********************* header-wrapper **********************/
 .header-wrapper {}
 	.top-wrapper {background-color: #333; padding: 1.5em 0 .625em 0; display: none;}
@@ -97,8 +101,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 /********************* main-wrapper **********************/
 .main-wrapper {max-width: 1920px; margin: auto;}
-.main-wrapper .slide {padding: 10% 15% 25% 15%; background-size: cover; background-repeat: no-repeat; 
-	background-position: 70% center;}
+.main-wrapper .slide {padding: 10% 15% 0 15%; background-size: cover; background-repeat: no-repeat; 
+	background-position: center; border: 2px solid red; min-height: 50vh;}
 .main-wrapper .slide:nth-child(1) {background-image: url('../img/main01.jpg');}
 .main-wrapper .slide:nth-child(2) {background-image: url('../img/main02.jpg');}
 .main-wrapper .slide:nth-child(3) {background-image: url('../img/main03.jpg');}
@@ -138,9 +142,6 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .best-wrapper > .slide-wrapper .bt:hover {color: #444;}
 .best-wrapper > .slide-wrapper .bt.bt-prev {left: 0;}
 .best-wrapper > .slide-wrapper .bt.bt-next {right: 0;}
-.best-wrapper > .slide-wrapper > .swiper-pagination {width: 100%; text-align: center; margin-top: 24px;}
-.best-wrapper > .slide-wrapper > .swiper-pagination > .swiper-pagination-bullet {width: 18px; height: 18px; margin: 2px; outline: none; background-color: transparent; border: 2px solid #ccc; opacity: 1; border-radius: 9px; transition: all 0.5s;}
-.best-wrapper > .slide-wrapper > .swiper-pagination > .swiper-pagination-bullet-active {background-color: #ae1a4a; border-color: #ae1a4a; width: 28px;}
 
 .best-wrapper > .slide-wrapper > .slide-stage {width: calc(100% - 100px); margin: auto; height: 356px;}
 .best-wrapper > .slide-wrapper .slide {border: 1px solid #ccc;}
