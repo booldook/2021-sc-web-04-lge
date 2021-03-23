@@ -105,7 +105,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.navi-wrapper2 .icon-wrap span {font-weight: bold; margin-right: 0.25em;}
 
 /********************* main-wrapper **********************/
-.main-wrapper {max-width: 1900px; margin: auto;}
+.main-wrapper {max-width: 1900px; margin: auto; position: relative;}
 .main-wrapper .slide {padding-top: 80%; position: relative; height: 0; overflow: hidden;
 	background-size: cover; background-repeat: no-repeat; background-position: center;}
 .main-wrapper .slide:nth-child(1) {background-image: url('../img/main01.jpg');}
@@ -118,7 +118,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .main-wrapper .slide:nth-child(8) {background-image: url('../img/main08.jpg');}
 .main-wrapper .slide:nth-child(9) {background-image: url('../img/main09.jpg');}
 .main-wrapper .slide:nth-child(10) {background-image: url('../img/main10.jpg');}
-.main-wrapper .bt-swiper {top: calc(50% - 32px);}
+.main-wrapper .bt-swiper {top: calc(50% - 52px); color: #fff; text-shadow: 0 0 6px rgba(0, 0, 0, .5);}
 .main-wrapper .bt-swiper.bt-prev {left: 3%;}
 .main-wrapper .bt-swiper.bt-next {right: 3%;}
 
