@@ -1,0 +1,9 @@
+/* 1번 복습 - 패딩과 마진을 %로 주게되면 무조건 가로를 기준으로 부모를 기준으로 정해진다. */
+/* .wrapper {max-width: 1000px; margin: auto; height: 500px; background-color: red;}
+.wrap {padding: 10%; width: 100%; height: 100%; background-color: orange;}
+.box {width: 100%; height: 100%; background-color: teal;} */
+
+/* 2번 복습 - 부모를 기준으로 %가 주어지므로...  */
+/* .wrapper {max-width: 1000px; margin: 30px auto; background-color: red;}
+.wrapper > .wrap {width: 102%; background-color: orange;}
+.wrapper > .wrap > .box {width: 31.3333%; height: 300px; float: left; background-color: teal; margin: 0 2% 2% 0;} */
