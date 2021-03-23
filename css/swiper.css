@@ -1,8 +1,11 @@
 .wrapper {max-width: 1200px; margin: 50px auto;}
 
-.best-wrapper > .swiper-container {width: calc(100% - 100px); margin: auto;}
-.best-wrapper .swiper-pagination {padding: 16px 0;}
-
 .best-wrapper {position: relative;}
+.best-wrapper > .swiper-container {width: calc(100% - 100px); margin: auto;}
+
+.best-wrapper .swiper-button-prev,
+.best-wrapper .swiper-button-next {top: calc(50% - 25px);}
+.best-wrapper .swiper-pagination {padding: 16px 0; position: static;}
+
 .best-wrapper .swiper-pagination {width: 100%; text-align: center;}
 .best-wrapper .swiper-pagination .swiper-pagination-bullet {margin: 4px;} 
