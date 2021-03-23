@@ -7,3 +7,8 @@
 /* .wrapper {max-width: 1000px; margin: 30px auto; background-color: red;}
 .wrapper > .wrap {width: 102%; background-color: orange;}
 .wrapper > .wrap > .box {width: 31.3333%; height: 300px; float: left; background-color: teal; margin: 0 2% 2% 0;} */
+
+/* 3번 - 가로세로비율 유지 */
+.wrapper {max-width: 1200px; margin: auto;}
+.wrap {width: 100%; height: 0; background-color: red; padding-top: 34.73%; overflow: hidden; background-image: url(../img/main01.jpg); background-size: cover;}
+.wrap2 {width: 100%; height: 0; background-color: orangered; padding-top: 56.25%; overflow: hidden;}
