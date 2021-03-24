@@ -233,8 +233,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .footer-wrapper > .copy-wrapper > .copyright-kr {float: right; width: 100%; margin-bottom: 1em;}
 
 /******************** aside **********************/
-aside.wing-wrapper {position: fixed; bottom: 70px; right: 10px; z-index: 100;}
-aside.wing-wrapper li {width: 72px; padding: 4px;}
+aside.wing-wrapper {position: fixed; bottom: 70px; right: 6px; z-index: 100;}
+aside.wing-wrapper li {width: 52px; padding: 4px;}
 aside.bt-top {position: fixed; bottom: 8px; right: 8px; z-index: 100; display: none;}
 aside.bt-top.active {display: block;}
 aside.bt-top > a {display: block; background-image: url('../img/common.png'); background-position: -150px -200px; width: 50px; height: 50px;}
@@ -306,6 +306,7 @@ aside.bt-top > a {display: block; background-image: url('../img/common.png'); ba
 	.footer-wrapper > .addr-wrapper > .cert-wrap {width: auto; padding-top: 0; border-top: none; border-bottom: none;}
 	.footer-wrapper > .copy-wrapper > .copyright {width: auto;}
 	.footer-wrapper > .copy-wrapper > .copyright-kr {width: auto;}
+	aside.wing-wrapper li {width: 72px;}
 }
 
 @media (min-width: 1400px) {
