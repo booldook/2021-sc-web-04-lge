@@ -232,6 +232,13 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .footer-wrapper > .copy-wrapper > .copyright {float: left; width: 100%; margin-bottom: 1em;}
 .footer-wrapper > .copy-wrapper > .copyright-kr {float: right; width: 100%; margin-bottom: 1em;}
 
+/******************** aside **********************/
+aside.wing-wrapper {position: fixed; bottom: 70px; right: 10px; z-index: 100;}
+aside.wing-wrapper li {width: 72px; padding: 4px;}
+aside.bt-top {position: fixed; bottom: 8px; right: 8px; z-index: 100; display: none;}
+aside.bt-top.active {display: block;}
+aside.bt-top > a {display: block; background-image: url('../img/common.png'); background-position: -150px -200px; width: 50px; height: 50px;}
+
 
 /******************** 반응형 **********************/
 @media (min-width: 576px) {
