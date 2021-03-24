@@ -204,7 +204,8 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .info-wrapper > .info-wrap > .info:not(:first-child) > .fa {bottom: 10%; right: 3%;}
 
 .info-wrapper > .sns-wrap {text-align: center;}
-.info-wrapper > .sns-wrap > .sns {display: inline-block; width: 120px; border-right: 1px solid #eee; margin-bottom: 2em;}
+.info-wrapper > .sns-wrap > .divide {border: 1px solid #eee;}
+.info-wrapper > .sns-wrap > .sns {display: inline-block; text-align: center; padding: 1em 0.5em;}
 .info-wrapper > .sns-wrap > .sns > .title {color: #999; padding-top: 1em;}
 
 
@@ -235,6 +236,9 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.info-wrapper > .info-wrap > .info:nth-child(3) {width: 25%;}
 	.info-wrapper > .info-wrap > .info:nth-child(4) {width: 25%;}
 	.info-wrapper > .info-wrap > .info:nth-child(5) {width: 100%; display: block;}
+
+	.info-wrapper > .sns-wrap > .divide {display: none;}
+	.info-wrapper > .sns-wrap > .sns {border-right: 1px solid #eee;}
 }
 
 @media (min-width: 992px) {
