@@ -21,7 +21,7 @@ background: #333 url('../img/common.png') left top/cover;
 
 @import './lge-font.css';
 
-html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; height: 10000px;}
+html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .wrapper {max-width: 1600px; margin: auto; padding: 0 .5rem;}
 .wrapper2 {max-width: 1300px; margin: auto; padding: 0 .5rem;}
 .wrapper3 {max-width: 1414px; margin: auto; padding: 0 .5rem; overflow: hidden;}
@@ -210,21 +210,27 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 
 /********************* footer-wrapper **********************/
-.footer-wrapper {background-color: #333; color: #f9f9f9; line-height: 1.25;}
+.footer-wrapper {background-color: #333; color: #f9f9f9; line-height: 1.5; padding-bottom: 2em;}
 .footer-wrapper a:hover {text-decoration: underline;}
 .footer-wrapper .line {border-bottom: 1px solid #444;}
 .footer-wrapper > .notice-wrapper {padding: .75em .5em;}
 .footer-wrapper > .notice-wrapper img {vertical-align: middle; margin-right: .75em;}
-.footer-wrapper > .navi-wrapper {padding: 1em .5em;}
+.footer-wrapper > .navi-wrapper {padding: 1em .5em; margin-bottom: 0.5em;}
 .footer-wrapper > .navi-wrapper > .navi-wrap {float: left; width: 100%; margin-bottom: 1em;}
 .footer-wrapper > .navi-wrapper > .navi-wrap > .navi {float: left; width: 100%; margin-bottom: 0.5em;}
 /* .footer-wrapper > .navi-wrapper > .navi-wrap > .navi:not(:last-child) {border-right: 1px solid #eee;} */
 /* .footer-wrapper > .navi-wrapper > .navi-wrap > .navi:not(:last-child)::after {content: '|'; display: inline-block; padding: 0 1em;} */
 .footer-wrapper > .navi-wrapper > .link-wrap {float: right; width: 100%; 
 	border-top: 1px solid #444; border-bottom: 1px solid #444; padding: 1em 0;}
-.footer-wrapper > .navi-wrapper > .link-wrap > div {float: left; padding-right: 2em;}
-.footer-wrapper > .addr-wrapper {}
-.footer-wrapper > .copy-wrapper {}
+.footer-wrapper > .navi-wrapper > .link-wrap > div {float: left;}
+.footer-wrapper > .navi-wrapper > .link-wrap > div:first-child {padding-right: 2em;}
+.footer-wrapper > .addr-wrapper {font-size: 0.925em; margin-bottom: 1em;}
+.footer-wrapper > .addr-wrapper > .addr-wrap {float: left; width: 100%; margin-bottom: 1em;}
+.footer-wrapper > .addr-wrapper > .cert-wrap {float: right; width: 100%; padding-top: 1em; border-top: 1px solid #444; border-bottom: 1px solid #444;}
+.footer-wrapper > .addr-wrapper > .cert-wrap img {float: left; vertical-align: middle; transform: translateY(-12px);}
+.footer-wrapper > .copy-wrapper {font-size: 0.925em;}
+.footer-wrapper > .copy-wrapper > .copyright {float: left; width: 100%; margin-bottom: 1em;}
+.footer-wrapper > .copy-wrapper > .copyright-kr {float: right; width: 100%; margin-bottom: 1em;}
 
 
 /******************** 반응형 **********************/
@@ -289,6 +295,10 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 	.footer-wrapper > .navi-wrapper > .navi-wrap > .navi {width: auto; margin-bottom: 0;}
 	.footer-wrapper > .navi-wrapper > .navi-wrap > .navi:not(:last-child)::after {content: '|'; display: inline-block; padding: 0 1em;}
 	.footer-wrapper > .navi-wrapper > .link-wrap {width: auto; border-top: none; border-bottom: none; padding: 0;}
+	.footer-wrapper > .addr-wrapper > .addr-wrap {width: auto; margin-bottom: 0;}
+	.footer-wrapper > .addr-wrapper > .cert-wrap {width: auto; padding-top: 0; border-top: none; border-bottom: none;}
+	.footer-wrapper > .copy-wrapper > .copyright {width: auto;}
+	.footer-wrapper > .copy-wrapper > .copyright-kr {width: auto;}
 }
 
 @media (min-width: 1400px) {
