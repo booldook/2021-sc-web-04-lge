@@ -46,6 +46,11 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .bt-swiper.bt-prev {left: 0;}
 .bt-swiper.bt-next {right: 0;}
 
+.wrapper3 > h3.title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative;}
+.wrapper3 > h3.title > span {border-bottom: 1px solid #999; display: inline-block;}
+.wrapper3 > h3.title > .bt-more {position: absolute; top: 0; right: 0; font-size: 0.625em; color: #777;}
+.wrapper3 > h3.title > .bt-more::after {display: inline-block; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
+
 /********************* header-wrapper **********************/
 .header-wrapper {}
 	.top-wrapper {background-color: #333; padding: 1.5em 0 .625em 0; display: none;}
@@ -162,10 +167,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 /********************* evt-wrapper **********************/
 .evt-wrapper {background-color: #f8f8f8; padding: 5em 0;}
 .evt-wrapper > .wrapper3 {overflow: hidden;}
-.evt-wrapper > div > .title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative;}
-.evt-wrapper > div > .title > span {border-bottom: 1px solid #999; display: inline-block;}
-.evt-wrapper > div > .title > .bt-more {position: absolute; top: 0; right: 0; font-size: 0.625em; color: #777;}
-.evt-wrapper > div > .title > .bt-more::after {display: inline-block; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
+
 .evt-wrapper .cont-wrapper {background-color: #fff; margin: 3em auto 2em auto;}
 .evt-wrapper .cont-wrapper > div {float: left;}
 .evt-wrapper .cont-wrapper > div.banner-wrap {width: 100%; max-width: 800px;}
@@ -181,6 +183,13 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .evt-wrapper .list-wrapper > .list > .cont-wrap .title {font-size: 1.125em; padding: 0.5em 0;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .content {color: #555; padding: 0.5em 0;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .date {color: #555; padding: 0.5em 0;}
+
+
+/********************* info-wrapper **********************/
+.info-wrapper {padding: 5em 0; overflow: hidden;}
+
+
+
 
 /******************** 반응형 **********************/
 @media (min-width: 576px) {
