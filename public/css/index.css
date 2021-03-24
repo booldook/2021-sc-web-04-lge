@@ -69,6 +69,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px;}
 .header-wrapper .navi-wrapper .navi:hover {background-color: #ccc;}
 .header-wrapper .navi-wrapper .navi:hover > a {color: #333;}
 .header-wrapper .navi-wrapper .navi:hover > .sub-wrapper {z-index: 2; height: 300px;}
+/* .header-wrapper .navi-wrapper .navi:last-child:hover > .sub-wrapper {z-index: 2; height: 400px;} */
 .header-wrapper .navi-wrapper .navi:last-child > span {opacity: .5;}
 
 .sub-wrapper {position: absolute; top: 63px; left: 0; height: 0; width: 100%; background-image: linear-gradient(#ccc, #f1f1f1); transition: height 0.35s; overflow: hidden; z-index: 1; box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);}
