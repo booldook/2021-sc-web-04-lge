@@ -46,7 +46,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .bt-swiper.bt-prev {left: 0;}
 .bt-swiper.bt-next {right: 0;}
 
-.wrapper3 > h3.title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative;}
+.wrapper3 > h3.title {font-size: 1.5em; text-align: center; line-height: 1.5; position: relative; margin-bottom: 2em;}
 .wrapper3 > h3.title > span {border-bottom: 1px solid #999; display: inline-block;}
 .wrapper3 > h3.title > .bt-more {position: absolute; top: 0; right: 0; font-size: 0.625em; color: #777;}
 .wrapper3 > h3.title > .bt-more::after {display: inline-block; box-sizing: border-box; content: '+'; width: 22px; height: 22px; border-radius: 50%; border: 1px solid #bbb; font-size: 1.75em; line-height: 22px; text-align: center; transform: translateY(3px); margin-left: 8px;}
@@ -168,7 +168,7 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .evt-wrapper {background-color: #f8f8f8; padding: 5em 0;}
 .evt-wrapper > .wrapper3 {overflow: hidden;}
 
-.evt-wrapper .cont-wrapper {background-color: #fff; margin: 3em auto 2em auto;}
+.evt-wrapper .cont-wrapper {background-color: #fff; margin-bottom: 2em;}
 .evt-wrapper .cont-wrapper > div {float: left;}
 .evt-wrapper .cont-wrapper > div.banner-wrap {width: 100%; max-width: 800px;}
 .evt-wrapper .cont-wrapper > div.cont-wrap {width: 100%; padding: 3%;}
@@ -187,6 +187,12 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 
 /********************* info-wrapper **********************/
 .info-wrapper {padding: 5em 0; overflow: hidden;}
+.info-wrapper > .info-wrap > .info {float: left;}
+.info-wrapper > .info-wrap > .info:nth-child(1) {width: 40%;}
+.info-wrapper > .info-wrap > .info:nth-child(2) {width: 20%;}
+.info-wrapper > .info-wrap > .info:nth-child(3) {width: 20%;}
+.info-wrapper > .info-wrap > .info:nth-child(4) {width: 20%;}
+.info-wrapper > .info-wrap > .info:nth-child(5) {width: 60%;}
 
 
 
