@@ -183,16 +183,23 @@ html, body {font-family: 'LGSmHaR'; font-size: 14px; letter-spacing: -1px; heigh
 .evt-wrapper .list-wrapper > .list > .cont-wrap .title {font-size: 1.125em; padding: 0.5em 0;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .content {color: #555; padding: 0.5em 0;}
 .evt-wrapper .list-wrapper > .list > .cont-wrap .date {color: #555; padding: 0.5em 0;}
+.evt-wrapper .list-wrapper > .list > .cont-wrap:hover > .title,
+.evt-wrapper .list-wrapper > .list > .cont-wrap:hover > .content {text-decoration: underline;}
 
 
 /********************* info-wrapper **********************/
 .info-wrapper {padding: 5em 0; overflow: hidden;}
+.info-wrapper > .info-wrap {margin-bottom: 3em;}
 .info-wrapper > .info-wrap > .info {float: left;}
 .info-wrapper > .info-wrap > .info:nth-child(1) {width: 40%;}
 .info-wrapper > .info-wrap > .info:nth-child(2) {width: 20%;}
 .info-wrapper > .info-wrap > .info:nth-child(3) {width: 20%;}
 .info-wrapper > .info-wrap > .info:nth-child(4) {width: 20%;}
 .info-wrapper > .info-wrap > .info:nth-child(5) {width: 60%;}
+
+.info-wrapper > .sns-wrap {text-align: center;}
+.info-wrapper > .sns-wrap > .sns {display: inline-block; width: 120px; border-right: 1px solid #eee; margin-bottom: 2em;}
+.info-wrapper > .sns-wrap > .sns > .title {color: #999; padding-top: 1em;}
 
 
 
